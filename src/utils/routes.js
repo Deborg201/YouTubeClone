@@ -23,4 +23,6 @@ export const appRouter = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename:"/YouTubeClone"
+});

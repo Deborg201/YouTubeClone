@@ -5,15 +5,15 @@ import { MdExplore } from "react-icons/md";
 const FilterBtnList = () => {
   const [searchParams] = useSearchParams();
   const filter = searchParams.get("filter");
-  const list = ["All", "HTML", "css", "Javascript", "ReactJS"];
+  const list = ["All", "HTML", "CSS", "Javascript", "ReactJS"];
   const mdList = [
     "NextJs",
     "Live",
     "Laptops",
     "Music",
-    "Computer programming",
+    "Playstation",
     "Jukebox",
-    "Recently uploaded",
+    "Technology",
     "Disney",
     "Namaste JS",
     "Mixes",
